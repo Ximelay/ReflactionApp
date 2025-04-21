@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using System.Drawing;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
 
@@ -14,6 +15,8 @@ namespace ReflectionApp
         {
             InitializeComponent();
             this.Load += Form1_Load;  // Подписываемся на событие загрузки формы
+            this.BackColor = Color.FromArgb(240, 240, 240); // Устанавливаем общий светлый фон для всей формы
+            ApplyBackgroundColor(this, this.BackColor);
         }
 
         private void sticker_Click(object sender, EventArgs e)
@@ -48,8 +51,29 @@ namespace ReflectionApp
             if (!statisticsChart.Series.Any(s => s.Name == "Responses"))
             {
                 Series responsesSeries = new Series("Responses");
-                responsesSeries.ChartType = SeriesChartType.Column; // Set the chart type
+                responsesSeries.ChartType = SeriesChartType.Bar; // Set the chart type
                 statisticsChart.Series.Add(responsesSeries);
+            }
+        }
+
+        private void AboutMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Это приложение для оценки понимания материала после занятия.\n" +
+                            "Выберите одну из иконок для отображения своего уровня понимания. \n" +
+                            "На основе ваших ответов программа обновляет статистику.",
+                "О программе", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void ApplyBackgroundColor(Control parent, Color color)
+        {
+            foreach (Control control in parent.Controls)
+            {
+                control.BackColor = color;
+
+                if (control.HasChildren)
+                {
+                    ApplyBackgroundColor(control, color);
+                }
             }
         }
     }
