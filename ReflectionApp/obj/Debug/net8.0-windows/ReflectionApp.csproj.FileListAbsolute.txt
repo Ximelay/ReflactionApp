@@ -78,3 +78,7 @@ C:\Projects\Visual Studio\ReflectionApp\ReflectionApp\obj\Debug\net8.0-windows\R
 C:\Projects\Visual Studio\ReflectionApp\ReflectionApp\obj\Debug\net8.0-windows\ReflectionApp.genruntimeconfig.cache
 C:\Projects\Visual Studio\ReflectionApp\ReflectionApp\obj\Debug\net8.0-windows\ref\ReflectionApp.dll
 C:\Users\Ximelay\Desktop\ReflectionApp\ReflectionApp\obj\Debug\net8.0-windows\ReflectionApp.sourcelink.json
+C:\Users\Ximelay\Desktop\ReflectionApp\ReflectionApp\bin\Debug\net8.0-windows\resource\bitDifficult.png
+C:\Users\Ximelay\Desktop\ReflectionApp\ReflectionApp\bin\Debug\net8.0-windows\resource\everythingIsClear.png
+C:\Users\Ximelay\Desktop\ReflectionApp\ReflectionApp\bin\Debug\net8.0-windows\resource\justFewUnClear.png
+C:\Users\Ximelay\Desktop\ReflectionApp\ReflectionApp\bin\Debug\net8.0-windows\resource\someWork.png

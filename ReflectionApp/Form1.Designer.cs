@@ -71,7 +71,7 @@ namespace ReflectionApp
             Controls.Add(statisticsChart);  // Добавляем график в форму
 
 
-            everythingIsClear.Image = Image.FromFile("C:\\Users\\Ximelay\\Desktop\\ReflectionApp\\ReflectionApp\\resource\\everythingIsClear.png"); // Updated image
+            everythingIsClear.Image = Image.FromFile(@"resource\everythingIsClear.png");
             everythingIsClear.Location = new Point(147, 51);
             everythingIsClear.Name = "everythingIsClear";
             everythingIsClear.Size = new Size(100, 100);
@@ -81,7 +81,7 @@ namespace ReflectionApp
             // 
             // justFewUnClear
             // 
-            justFewUnClear.Image = Image.FromFile("C:\\Users\\Ximelay\\Desktop\\ReflectionApp\\ReflectionApp\\resource\\justFewUnClear.png"); // Updated image
+            justFewUnClear.Image = Image.FromFile(@"resource\justFewUnClear.png");
             justFewUnClear.Location = new Point(556, 42);
             justFewUnClear.Name = "justFewUnClear";
             justFewUnClear.Size = new Size(100, 100);
@@ -91,7 +91,7 @@ namespace ReflectionApp
             // 
             // someWork
             // 
-            someWork.Image = Image.FromFile("C:\\Users\\Ximelay\\Desktop\\ReflectionApp\\ReflectionApp\\resource\\someWork.png"); // Updated image
+            someWork.Image = Image.FromFile(@"resource\someWork.png");
             someWork.Location = new Point(147, 241);
             someWork.Name = "someWork";
             someWork.Size = new Size(100, 100);
@@ -101,7 +101,7 @@ namespace ReflectionApp
             // 
             // bitDifficult
             // 
-            bitDifficult.Image = Image.FromFile("C:\\Users\\Ximelay\\Desktop\\ReflectionApp\\ReflectionApp\\resource\\bitDifficult.png"); // Updated image
+            bitDifficult.Image = Image.FromFile(@"resource\bitDifficult.png");
             bitDifficult.Location = new Point(556, 241);
             bitDifficult.Name = "bitDifficult";
             bitDifficult.Size = new Size(100, 100);
