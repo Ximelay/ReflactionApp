@@ -71,40 +71,40 @@ namespace ReflectionApp
             Controls.Add(statisticsChart);  // Добавляем график в форму
 
 
-            everythingIsClear.Image = Image.FromFile(@"resource\everythingIsClear.png");
+            everythingIsClear.Image = Image.FromFile(@"resource\everythingIsClear_iii.png");
             everythingIsClear.Location = new Point(147, 51);
             everythingIsClear.Name = "everythingIsClear";
-            everythingIsClear.Size = new Size(100, 100);
+            everythingIsClear.Size = new Size(120, 120);
             everythingIsClear.TabIndex = 0;
             everythingIsClear.TabStop = false;
             everythingIsClear.Click += sticker_Click;
             // 
             // justFewUnClear
             // 
-            justFewUnClear.Image = Image.FromFile(@"resource\justFewUnClear.png");
+            justFewUnClear.Image = Image.FromFile(@"resource\justFewUnClear_i.png");
             justFewUnClear.Location = new Point(556, 42);
             justFewUnClear.Name = "justFewUnClear";
-            justFewUnClear.Size = new Size(100, 100);
+            justFewUnClear.Size = new Size(120, 120);
             justFewUnClear.TabIndex = 1;
             justFewUnClear.TabStop = false;
             justFewUnClear.Click += sticker_Click;
             // 
             // someWork
             // 
-            someWork.Image = Image.FromFile(@"resource\someWork.png");
+            someWork.Image = Image.FromFile(@"resource\someWork_i.png");
             someWork.Location = new Point(147, 241);
             someWork.Name = "someWork";
-            someWork.Size = new Size(100, 100);
+            someWork.Size = new Size(120, 120);
             someWork.TabIndex = 2;
             someWork.TabStop = false;
             someWork.Click += sticker_Click;
             // 
             // bitDifficult
             // 
-            bitDifficult.Image = Image.FromFile(@"resource\bitDifficult.png");
+            bitDifficult.Image = Image.FromFile(@"resource\bitDifficult_i.png");
             bitDifficult.Location = new Point(556, 241);
             bitDifficult.Name = "bitDifficult";
-            bitDifficult.Size = new Size(100, 100);
+            bitDifficult.Size = new Size(120, 120);
             bitDifficult.TabIndex = 3;
             bitDifficult.TabStop = false;
             bitDifficult.Click += sticker_Click;
@@ -118,7 +118,7 @@ namespace ReflectionApp
             // 
             // lblUnderstood
             // 
-            lblUnderstood.Location = new Point(147, 167);
+            lblUnderstood.Location = new Point(160, 167);
             lblUnderstood.Name = "lblUnderstood";
             lblUnderstood.Size = new Size(112, 23);
             lblUnderstood.TabIndex = 4;
@@ -126,7 +126,7 @@ namespace ReflectionApp
             // 
             // lblUncertain
             // 
-            lblUncertain.Location = new Point(525, 158);
+            lblUncertain.Location = new Point(535, 158);
             lblUncertain.Name = "lblUncertain";
             lblUncertain.Size = new Size(164, 23);
             lblUncertain.TabIndex = 5;
@@ -134,7 +134,7 @@ namespace ReflectionApp
             // 
             // lblNeedsHelp
             // 
-            lblNeedsHelp.Location = new Point(106, 360);
+            lblNeedsHelp.Location = new Point(116, 360);
             lblNeedsHelp.Name = "lblNeedsHelp";
             lblNeedsHelp.Size = new Size(206, 23);
             lblNeedsHelp.TabIndex = 6;
@@ -142,7 +142,7 @@ namespace ReflectionApp
             // 
             // lblNotUnderstood
             // 
-            lblNotUnderstood.Location = new Point(495, 357);
+            lblNotUnderstood.Location = new Point(505, 357);
             lblNotUnderstood.Name = "lblNotUnderstood";
             lblNotUnderstood.Size = new Size(236, 23);
             lblNotUnderstood.TabIndex = 7;
@@ -162,6 +162,7 @@ namespace ReflectionApp
             Controls.Add(lblStatistics);
             Name = "Form1";
             Text = "Рефлексия по занятию";
+            Icon = new System.Drawing.Icon("resource/iconMain.ico");
             ((System.ComponentModel.ISupportInitialize)everythingIsClear).EndInit();
             ((System.ComponentModel.ISupportInitialize)justFewUnClear).EndInit();
             ((System.ComponentModel.ISupportInitialize)someWork).EndInit();
